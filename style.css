@@ -1,0 +1,211 @@
+html, body {
+    height:100%;
+}
+
+section {
+    min-height: 100%;
+    padding: 5%;
+    z-index:-1;
+}
+
+body{
+    padding-top: 50px;
+}
+
+
+
+#About{
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)), 
+        url(https://images.unsplash.com/photo-1535551951406-a19828b0a76b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=39c2d9cc5f529436519f8588c3df83fd&auto=format&fit=crop&w=1346&q=80) no-repeat center;
+    background-size:100%;
+    
+}
+#Education{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    url(https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=352d3cdaa50b65c4adf76c1d4dd4ca7e&auto=format&fit=crop&w=2550&q=80) no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        !important;
+    background-size: 100% 
+        !important;
+    background-position: center top 
+}
+
+#projectName, #collegeName, #expName, #jobName, #name{
+    font-size: 20px;
+    font-family: Muli;
+}
+
+#myname{
+    text-align: center;
+    font-family: Muli;
+    color:darkcyan;
+    font-size: 12px;
+    padding-top:6px;
+    margin-bottom:0px;
+    width:auto;
+}
+
+#name{
+    font-size: 24px;
+    font-family: Rosario;
+}
+
+#Education #education, #experience, #projects{
+    font-family: Raleway;
+}
+
+#question, #answer {
+    font-family: Raleway;
+    font-size: 20px;
+}
+
+#Skills{
+    background: url(https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a85730273c80cb666b28cf340b5a898&auto=format&fit=crop&w=1350&q=80) no-repeat center;
+    background-size: cover;
+}
+i > span{
+    font-size:18px;
+}
+#Experience{
+    background: url(https://images.unsplash.com/photo-1521794280418-62bce601569a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=745dd0889f9fc907dfe648cf2c785683&auto=format&fit=crop&w=800&q=60) no-repeat center;
+    background-size:cover;
+}
+#Projects{
+    background: url(https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a85730273c80cb666b28cf340b5a898&auto=format&fit=crop&w=1350&q=80) no-repeat center;
+    background-size:cover;
+}
+#Contact{
+    
+}
+
+.gpa{
+    padding-left:50px;
+}
+.gpa2{
+    padding-left:110px;
+}
+.mycontent{
+    background-color:rgb(255,255,255);
+    background-color:rgba(255,255,255,0.7);
+    color: #000;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    z-index:initial;
+    border-radius: 20px;
+    border: 2px #ddd solid;
+}
+
+.mycontent h2{
+    text-transform: uppercase;
+    font-family:Rosario;
+    padding-left: 20px;
+}
+
+.navone {
+    width: 100%;
+    height: 50px;
+    top:0;
+    left:0;
+    position:fixed;
+    background:white;
+    color:black;
+    overflow: hidden;
+    margin:0;
+    z-index:999;
+}
+
+.navone > ul {
+    margin:0;
+    padding: 0;
+}
+
+.navone > li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    padding: 0;
+}
+
+.navone > li > a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    background: white;
+    color:darkblue;
+    font-family:Montserrat;
+}
+
+.navone > li > a:hover {
+    background-color:aliceblue;
+    outline: none;
+} 
+
+.navone .active {
+    background: beige;
+}
+
+.navtwo {
+    display:none;
+}
+
+@media (max-width:480px) {
+    img {
+        width:100%;
+    }
+    .navone{
+        display:none;
+    }
+    
+    .navtwo {
+    display:block;
+    width: 100%;
+    height: 50px;
+    top:0;
+    left:0;
+    position:fixed;
+    background:white;
+    color:black;
+    overflow: hidden;
+    margin:0;
+
+    }
+
+    .navtwo > ul {
+        margin:0;
+        padding: 0;
+    }
+
+    .navtwo > li {
+        list-style-type: none;
+        display: inline-block;
+        width: 15%;
+    }
+
+    .navone > li > a {
+        display: block;
+        padding: 15px 0;
+        text-decoration: none;
+        text-align: center;
+        font-weight: bold;
+        background: white;
+        color:darkblue;
+        font-family:Montserrat;
+    }
+
+    .navone > li > a:hover {
+        background-color:aliceblue;
+        outline: none;
+    } 
+
+    .navone .active {
+        background: beige;
+    }
+
+    
+}
+
+
